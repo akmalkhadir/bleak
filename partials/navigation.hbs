@@ -16,7 +16,11 @@
 			{{#if @blog.facebook}}
 			<a class="facebook" href="{{facebook_url}}" title="{{@blog.facebook}}"><i class="icon-facebook"></i></a>
 			{{/if}}
+			{{#if @blog.twitter}}
+			<a class="twitter" href="{{twitter_url}}" title="{{@blog.twitter}}"><i class="icon-twitter"></i></a>
+			{{/if}}
 			<a class="rss" href="{{@blog.url}}/rss/"><i class="icon-rss"></i></a>
+
 		</li>
 	</ul>
 </div>
